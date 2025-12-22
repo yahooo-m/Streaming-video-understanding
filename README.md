@@ -89,6 +89,9 @@ A collection of research papers, models, and resources on **streaming**, **onlin
 - **StreamingCoT** (2025) - [[Paper](https://arxiv.org/pdf/2510.25332)]
 - **TV-Online** - [[OpenReview](https://openreview.net/forum?id=gmpnSSiJt7&noteId=M9tDBT9g9B)]
 - **ProactiveVideoQA** - [[Paper](https://arxiv.org/pdf/2507.09313v2)]
+- **SVBench** - [[Paper](https://arxiv.org/pdf/2502.10810)]
+- **OSTBench** - [[Code](https://github.com/InternRobotics/OST-Bench)]
+- **StreamEQA** - [[Code](https://github.com/MrYF-Wang/StreamEQA)]
 
 ---
 
