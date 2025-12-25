@@ -29,6 +29,7 @@ A collection of research papers, models, and resources on **streaming**, **onlin
 
 ### General Streaming / Online Video LLMs
 
+- **Streamo** (2025)  - [[Paper](https://arxiv.org/pdf/2512.21334)]
 - **StreamingVLM** (2025) - [[Paper](https://arxiv.org/abs/2510.09608v1)]
 - **Flash-VStream** (2024) - [[Paper](https://arxiv.org/abs/2406.08085)]
 - **StreamForest** (2025) - [[Paper](https://arxiv.org/abs/2509.24871v1)]
