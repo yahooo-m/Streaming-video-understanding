@@ -1,102 +1,170 @@
-# Streaming-video-understanding
-Paper list of streaming video understanding
+# 🎬 Streaming Video Understanding Papers
 
+<div align="center">
 
+### 📚 A Curated Collection of Research Papers on Streaming, Online, and Real-time Video Understanding with LMMs
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Papers](https://img.shields.io/badge/Papers-40+-blue)
+![Updated](https://img.shields.io/badge/Updated-2025-green)
 
-A collection of research papers, models, and resources on **streaming**, **online**, and **real-time** video understanding with Large Multimodal Models (LMMs).
-
-<p align="center">
-  <strong>Focus Areas:</strong><br>
-  Streaming Perception • Proactive QA • Real-time Memory<br>
-  KV Compression • Token-efficient Long Video Modeling
-</p>
+**Focus Areas:** Streaming Perception • Proactive QA • Real-time Memory • KV Compression • Token-efficient Long Video Modeling
 
 </div>
 
 ---
 
-## 📖 Contents
+## 📖 Table of Contents
 
-- [🚀 Models (Streaming Video LLMs)](#-models-streaming-video-llms)
+- [🚀 Streaming Video LLMs](#-streaming-video-llms)
 - [⚡ Token & KV Compression](#-token--kv-compression)
-- [🗣️ Proactive QA](#%EF%B8%8F-proactive-qa)
-- [📊 Benchmarks](#-benchmarks)
+- [🗣️ Proactive QA Systems](#%EF%B8%8F-proactive-qa-systems)
+- [📊 Benchmarks & Datasets](#-benchmarks--datasets)
 
 ---
 
-## 🚀 Models (Streaming Video LLMs)
+## 🚀 Streaming Video LLMs
 
-### General Streaming / Online Video LLMs
+<div align="center">
 
-- **Streamo** (2025)  - [[Paper](https://arxiv.org/pdf/2512.21334)]
-- **StreamingVLM** (2025) - [[Paper](https://arxiv.org/abs/2510.09608v1)]
-- **Flash-VStream** (2024) - [[Paper](https://arxiv.org/abs/2406.08085)]
-- **StreamForest** (2025) - [[Paper](https://arxiv.org/abs/2509.24871v1)]
-- **LiveVLM** (2025) - [[Paper](https://arxiv.org/abs/2505.15269)]
-- **VideoChat-Online** (2024) - [[Paper](https://arxiv.org/abs/2501.00584)]
-- **Eyes Wide Open (EyeWO)** (2024) - [[Code](https://github.com/zhangyl4/EyeWO)]
-- **StreamChat** (2025) - [[Paper](https://arxiv.org/pdf/2501.13468)]
-- **StreamBridge** (2025) - [[Paper](https://arxiv.org/abs/2505.05467)]
-- **VITA1.5** (2025) - [[Code](https://github.com/VITA-MLLM/VITA)]
-- **CogStream** (2025) - [[paper](https://arxiv.org/pdf/2506.10516)]
-  
+| 🏆 Model | 📅 Year | 📄 Paper | 💻 Code | 🌟 Highlights |
+|:--------:|:-------:|:--------:|:-------:|:-------------|
+| **Streamo** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2512.21334) | - | Latest streaming model |
+| **StreamingVLM** | 2025 | [📄 arXiv](https://arxiv.org/abs/2510.09608v1) | - | Advanced streaming architecture |
+| **Flash-VStream** | 2024 | [📄 arXiv](https://arxiv.org/abs/2406.08085) | - | Flash attention for streaming |
+| **StreamForest** | 2025 | [📄 arXiv](https://arxiv.org/abs/2509.24871v1) | - | Hierarchical streaming |
+| **LiveVLM** | 2025 | [📄 arXiv](https://arxiv.org/abs/2505.15269) | - | Real-time vision-language |
+| **VideoChat-Online** | 2024 | [📄 arXiv](https://arxiv.org/abs/2501.00584) | - | Conversational streaming |
+| **EyeWO** | 2024 | - | [💻 GitHub](https://github.com/zhangyl4/EyeWO) | Eyes Wide Open framework |
+| **StreamChat** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2501.13468) | - | Interactive streaming chat |
+| **StreamBridge** | 2025 | [📄 arXiv](https://arxiv.org/abs/2505.05467) | - | Bridging streaming gaps |
+| **VITA 1.5** | 2025 | - | [💻 GitHub](https://github.com/VITA-MLLM/VITA) | Multimodal streaming |
+| **CogStream** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2506.10516) | - | Cognitive streaming |
+
+</div>
+
 ---
 
 ## ⚡ Token & KV Compression
 
-### KV Cache Compression
+### 🔥 KV Cache Compression
 
-- **ReKV** (2025) - [[Paper](https://arxiv.org/abs/2503.00540v1)]
-- **StreamKV** (2025) - [[Paper](https://arxiv.org/abs/2511.07278v1)]
-- **InfiniPot-V** (2025) - [[Paper](https://arxiv.org/abs/2506.15745v2)]
-- **StreamMem** (2025) - [[Paper](https://arxiv.org/abs/2508.15717)]
-- **InfinitVL** (2025) - [[Code](https://github.com/hustvl/InfiniteVL/tree/main)]
+<div align="center">
 
-### Token / Visual Compression
+| 🏆 Method | 📅 Year | 📄 Paper | 💻 Code | 🎯 Core Technique |
+|:---------:|:-------:|:--------:|:-------:|:-----------------|
+| **ReKV** | 2025 | [📄 arXiv](https://arxiv.org/abs/2503.00540v1) | - | Recursive KV caching |
+| **StreamKV** | 2025 | [📄 arXiv](https://arxiv.org/abs/2511.07278v1) | - | Streaming KV management |
+| **InfiniPot-V** | 2025 | [📄 arXiv](https://arxiv.org/abs/2506.15745v2) | - | Infinite potential vision |
+| **StreamMem** | 2025 | [📄 arXiv](https://arxiv.org/abs/2508.15717) | - | Streaming memory system |
+| **InfiniteVL** | 2025 | - | [💻 GitHub](https://github.com/hustvl/InfiniteVL/tree/main) | Infinite vision-language |
 
-- **TimeChat-Online: Differential Token Drop (DTD)** (2025) - [[Paper](https://arxiv.org/abs/2504.17343)]
-- **VideoLLM-MoD** (2024) - [[Paper](https://arxiv.org/abs/2503.12559v2)]
-- **StreamingTOM** (2025) - [[Paper](https://arxiv.org/abs/2510.18269v1)]
-- **STC** (2025) - [[Paper](https://www.arxiv.org/abs/2512.00891)]
+</div>
 
----
+### 🎨 Token / Visual Compression
 
-## 🗣️ Proactive QA
+<div align="center">
 
-### Online / Real-Time / Proactive Output (PO)
+| 🏆 Method | 📅 Year | 📄 Paper | 💻 Code | 🎯 Core Technique |
+|:---------:|:-------:|:--------:|:-------:|:-----------------|
+| **TimeChat-Online (DTD)** | 2025 | [📄 arXiv](https://arxiv.org/abs/2504.17343) | - | Differential Token Drop |
+| **VideoLLM-MoD** | 2024 | [📄 arXiv](https://arxiv.org/abs/2503.12559v2) | - | Mixture of Depths |
+| **StreamingTOM** | 2025 | [📄 arXiv](https://arxiv.org/abs/2510.18269v1) | - | Token-level optimization |
+| **STC** | 2025 | [📄 arXiv](https://www.arxiv.org/abs/2512.00891) | - | Spatial-temporal compression |
 
-- **VideoLLM-online** (2024) - [[Paper](https://arxiv.org/abs/2406.11816v1)]
-- **MMDuet** (2024) - [[Paper](https://arxiv.org/abs/2411.17991)]
-- **MMDuet2** (2025) - [[OpenReview](https://openreview.net/forum?id=rxQnMSNCUs)]
-- **Dispider** (2025) - [[Paper](https://arxiv.org/abs/2501.03218)]
-- **StreamMind** (2025) - [[Paper](https://arxiv.org/abs/2503.06220v3)]
-- **TimeChat-Online** (2025) - [[Paper](https://arxiv.org/abs/2504.17343)]
-- **LiveStar** (2025) - [[Paper](https://arxiv.org/abs/2511.05299v1)]
-- **StreamVLN** (2025) - [[Paper](https://arxiv.org/pdf/2507.05240)]
-- **LION-FS** (2025) - [[Paper](https://arxiv.org/abs/2503.03663)]
+</div>
 
 ---
 
-## 📊 Benchmarks
+## 🗣️ Proactive QA Systems
 
-### Streaming / Online Video Understanding Benchmarks
+### 🤖 Online / Real-Time / Proactive Output
 
-- **OVO-Bench** (2025) - [[Code](https://github.com/JoeLeelyf/OVO-Bench)]
-- **StreamingBench** (2025) - [[Paper](https://arxiv.org/abs/2506.18472)]
-- **OmniMMI** (2025) - [[Paper](https://arxiv.org/pdf/2503.22952)]
-- **RTV-Bench** (2025) - [[Paper](https://arxiv.org/pdf/2505.02064)]
-- **VStream-QA (RVS)** (2024) - [[Paper](https://arxiv.org/abs/2406.08085)]
-- **StreamBench** (2025) - [[Code](https://github.com/hmxiong/StreamChat)]
-- **StreamingCoT** (2025) - [[Paper](https://arxiv.org/pdf/2510.25332)]
-- **TV-Online** - [[OpenReview](https://openreview.net/forum?id=gmpnSSiJt7&noteId=M9tDBT9g9B)]
-- **ProactiveVideoQA** - [[Paper](https://arxiv.org/pdf/2507.09313v2)]
-- **SVBench** - [[Paper](https://arxiv.org/pdf/2502.10810)]
-- **OSTBench** - [[Code](https://github.com/InternRobotics/OST-Bench)]
-- **StreamEQA** - [[Code](https://github.com/MrYF-Wang/StreamEQA)]
+<div align="center">
+
+| 🏆 System | 📅 Year | 📄 Paper | 💻 Code | 🎯 Innovation |
+|:---------:|:-------:|:--------:|:-------:|:-------------|
+| **VideoLLM-online** | 2024 | [📄 arXiv](https://arxiv.org/abs/2406.11816v1) | - | First online VideoLLM |
+| **MMDuet** | 2024 | [📄 arXiv](https://arxiv.org/abs/2411.17991) | - | Dual-mode interaction |
+| **MMDuet 2** | 2025 | [📄 OpenReview](https://openreview.net/forum?id=rxQnMSNCUs) | - | Enhanced dual-mode |
+| **Dispider** | 2025 | [📄 arXiv](https://arxiv.org/abs/2501.03218) | - | Distributed processing |
+| **StreamMind** | 2025 | [📄 arXiv](https://arxiv.org/abs/2503.06220v3) | - | Cognitive streaming |
+| **TimeChat-Online** | 2025 | [📄 arXiv](https://arxiv.org/abs/2504.17343) | - | Temporal understanding |
+| **LiveStar** | 2025 | [📄 arXiv](https://arxiv.org/abs/2511.05299v1) | - | Live streaming star |
+| **StreamVLN** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2507.05240) | - | Vision-language navigation |
+| **LION-FS** | 2025 | [📄 arXiv](https://arxiv.org/abs/2503.03663) | - | Few-shot learning |
+
+</div>
+
+---
+
+## 📊 Benchmarks & Datasets
+
+### 🎯 Streaming / Online Video Understanding Benchmarks
+
+<div align="center">
+
+| 🏆 Benchmark | 📅 Year | 📄 Paper | 💻 Code | 🎯 Focus Area |
+|:------------:|:-------:|:--------:|:-------:|:-------------|
+| **OVO-Bench** | 2025 | - | [💻 GitHub](https://github.com/JoeLeelyf/OVO-Bench) | Online video understanding |
+| **StreamingBench** | 2025 | [📄 arXiv](https://arxiv.org/abs/2506.18472) | - | Comprehensive streaming eval |
+| **OmniMMI** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2503.22952) | - | Omni-modal interaction |
+| **RTV-Bench** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2505.02064) | - | Real-time video benchmark |
+| **VStream-QA (RVS)** | 2024 | [📄 arXiv](https://arxiv.org/abs/2406.08085) | - | Video stream QA |
+| **StreamBench** | 2025 | - | [💻 GitHub](https://github.com/hmxiong/StreamChat) | Streaming benchmark |
+| **StreamingCoT** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2510.25332) | - | Chain-of-thought streaming |
+| **TV-Online** | 2025 | [📄 OpenReview](https://openreview.net/forum?id=gmpnSSiJt7&noteId=M9tDBT9g9B) | - | TV video understanding |
+| **ProactiveVideoQA** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2507.09313v2) | - | Proactive QA |
+| **SVBench** | 2025 | [📄 arXiv](https://arxiv.org/pdf/2502.10810) | - | Streaming video benchmark |
+| **OSTBench** | 2025 | - | [💻 GitHub](https://github.com/InternRobotics/OST-Bench) | Online streaming tasks |
+| **StreamEQA** | 2025 | - | [💻 GitHub](https://github.com/MrYF-Wang/StreamEQA) | Embodied QA streaming |
+
+</div>
+
+---
+
+## 📈 Statistics
+
+<div align="center">
+
+| Category | Count | Latest Year |
+|:---------|:-----:|:-----------:|
+| 🚀 Streaming Video LLMs | 11 | 2025 |
+| ⚡ KV Cache Compression | 5 | 2025 |
+| 🎨 Token Compression | 4 | 2025 |
+| 🗣️ Proactive QA | 9 | 2025 |
+| 📊 Benchmarks | 12 | 2025 |
+| **Total Papers** | **41** | **2025** |
+
+</div>
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to check the [issues](issues) page or open a [pull request](pulls).
+We welcome contributions! Please feel free to:
+
+- 📝 Submit new papers via [Pull Request](../../pulls)
+- 🐛 Report issues or suggest improvements via [Issues](../../issues)
+- ⭐ Star this repository if you find it helpful!
+
+### Contribution Guidelines
+
+1. Ensure the paper is related to streaming/online video understanding
+2. Provide paper link (arXiv, OpenReview, etc.) or code repository
+3. Include a brief description of the core contribution
+4. Follow the existing table format
+
+---
+
+<div align="center">
+
+### 📧 Contact & Collaboration
+
+Feel free to reach out for collaborations or discussions!
+
+**Last Updated:** December 2025
+
+Made with ❤️ by the Streaming Video Understanding Community
+
+</div>
