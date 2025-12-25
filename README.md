@@ -51,6 +51,7 @@ A collection of research papers, models, and resources on **streaming**, **onlin
 - **StreamKV** (2025) - [[Paper](https://arxiv.org/abs/2511.07278v1)]
 - **InfiniPot-V** (2025) - [[Paper](https://arxiv.org/abs/2506.15745v2)]
 - **StreamMem** (2025) - [[Paper](https://arxiv.org/abs/2508.15717)]
+- **InfinitVL** (2025) - [[Code](https://github.com/hustvl/InfiniteVL/tree/main)]
 
 ### Token / Visual Compression
 
